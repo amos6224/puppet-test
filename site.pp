@@ -3,3 +3,5 @@ class my_class {
 }
 
 include my_class 
+
+import 'node.pp'
