@@ -1,6 +1,6 @@
 node 'puppet-test' {
   package { "nginx": 
-    ensure => absent
+    ensure => installed
   }
 }
 
