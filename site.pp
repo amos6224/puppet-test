@@ -1,6 +1,6 @@
-yumrepo { "EPELrepo":
-  baseurl  => "http://rpms.famillecollet.com/enterprise/6/remi/mirror",
-  descr    => "EPEL",
+yumrepo { "NGINXrepo":
+  baseurl  => "http://nginx.org/packages/centos/\$releasever/\$basearch/",
+  descr    => "nginx repo",
   enabled  => 1,
   gpgcheck => 0,
 }
